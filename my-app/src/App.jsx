@@ -5,14 +5,13 @@ import {
   Route, Routes
 } from 'react-router-dom';
 
-
+import Header from "./components/Header";
 function App(){
   return(
     <>
     <Router>
-      <div>Hi this is harsh singh</div>
-
-
+      {/* Step 1.4 Import From Header*/}
+      <Header></Header>
       <Routes>
 
       <Route>
